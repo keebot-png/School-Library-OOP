@@ -1,5 +1,6 @@
-require_relative 'nameable'
-class Person < Namable
+require_relative 'decorator'
+
+class Person < Nameable
   attr_reader :object_id
   attr_accessor :name, :age
 
@@ -8,6 +9,7 @@ class Person < Namable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    super()
   end
 
   private
@@ -29,5 +31,4 @@ class Person < Namable
   def correct_name
     @name
   end
-  
 end
