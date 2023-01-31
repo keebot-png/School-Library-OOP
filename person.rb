@@ -1,5 +1,6 @@
-class Person
-  attr_reader :@id
+require_relative 'nameable'
+class Person < Namable
+  attr_reader :object_id
   attr_accessor :name, :age
 
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -24,4 +25,9 @@ class Person
       false
     end
   end
+
+  def correct_name
+    @name
+  end
+  
 end
