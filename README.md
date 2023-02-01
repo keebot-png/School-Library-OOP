@@ -42,6 +42,7 @@
 
 - **Has a file for each class which stores information about certain people within the school setting**
 - **Uses composition and design patterns to decorate a person class, specifically the names of people**
+- **Implement the different associations between classes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +98,6 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Setting up associations**
 - [ ] **Adding a basic UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
