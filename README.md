@@ -99,7 +99,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Adding a basic UI**
+- [ ] **Adding Unit test using Rspec**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
