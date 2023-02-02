@@ -43,6 +43,7 @@
 - **Has a file for each class which stores information about certain people within the school setting**
 - **Uses composition and design patterns to decorate a person class, specifically the names of people**
 - **Implement the different associations between classes**
+- **Execute a script that stores input variables (gets.chomp) into instantiated classes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
